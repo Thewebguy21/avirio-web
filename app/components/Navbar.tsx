@@ -100,7 +100,7 @@ export default function Navbar() {
     window.addEventListener("scroll", h, { passive: true });
     return () => window.removeEventListener("scroll", h);
   }, []);
-  useEffect(() => { setOpen(null); }, [pathname]);
+  useEffect(() => { const t = setTimeout(() => setOpen(null), 0); return () => clearTimeout(t); }, [pathname]);
 
   const enter = (key: MenuKey) => {
     if (MENUS[key].direct) return;

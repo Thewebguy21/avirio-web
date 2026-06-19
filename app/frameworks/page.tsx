@@ -314,7 +314,7 @@ export default function FrameworksPage() {
               Not sure which framework to start with?
             </h2>
             <p style={{ fontSize: 16, color: "rgba(242,242,244,0.45)", maxWidth: 440, margin: "0 auto 40px", lineHeight: 1.75 }}>
-              Talk to a compliance expert. We'll map your requirements and recommend the most efficient path.
+              Talk to a compliance expert. We will map your requirements and recommend the most efficient path.
             </p>
             <motion.a
               href="#"
